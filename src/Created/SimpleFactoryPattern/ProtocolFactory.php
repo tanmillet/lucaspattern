@@ -14,7 +14,7 @@ class ProtocolFactory
      * @param string $protocol
      * @return IProtocol
      */
-    public function getProtocol(string $protocol): IProtocol
+    static public function getProtocol(string $protocol): IProtocol
     {
         if (!isset($protocol)) {
             return new NullProtocol();

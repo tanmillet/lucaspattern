@@ -14,17 +14,17 @@ class FactoryMethodPattern
      */
     public function exc()
     {
-        // $op = new GermanFactory();
-        // $bicycle = $op->create(FactoryMethod::CHEAP);
-        // print_r($bicycle);
-        //
-        // $mercedes = $op->create(FactoryMethod::FAST);
-        // $mercedes->setColor('red');
-        // print_r($mercedes);
-        //
+        $op = new GermanFactory();
+        $bicycle = $op->create(FactoryMethod::CHEAP);
+        print_r($bicycle);
+
+        $mercedes = $op->create(FactoryMethod::FAST);
+        $mercedes->setColor('red');
+        print_r($mercedes);
+
         $op = new ItalianFactory();
-        // $bicycle = $op->create(FactoryMethod::CHEAP);
-        // print_r($bicycle);
+        $bicycle = $op->create(FactoryMethod::CHEAP);
+        print_r($bicycle);
 
         $mercedes = $op->create(FactoryMethod::FAST);
         $mercedes = $mercedes->setColor('green');
