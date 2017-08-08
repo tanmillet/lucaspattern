@@ -6,7 +6,7 @@
  * Time: 11:28
  */
 
-namespace TerryLucas2017\Pattern\Created;
+namespace TerryLucas2017\Pattern\Created\SimpleFactoryPattern;
 
 
 class Pop3Protocol implements IProtocol

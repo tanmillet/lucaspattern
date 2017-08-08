@@ -1,6 +1,6 @@
 <?php
 
-namespace TerryLucas2017\Pattern\Created;
+namespace TerryLucas2017\Pattern\Created\SimpleFactoryPattern;
 
 /**
  * Created by PhpStorm.
