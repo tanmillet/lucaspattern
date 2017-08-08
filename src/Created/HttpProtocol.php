@@ -21,7 +21,7 @@ class HttpProtocol implements IProtocol
      */
     public function connect()
     {
-        echo " 实现http连接 "."/n";
+        echo " http connect " . PHP_EOL;
     }
 
 }

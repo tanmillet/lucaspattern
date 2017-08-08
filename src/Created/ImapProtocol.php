@@ -16,6 +16,6 @@ class ImapProtocol implements IProtocol
      */
     public function connect()
     {
-        echo  " 实现imap连接 " . "/n";
+        echo " imap connect " . PHP_EOL;
     }
 }

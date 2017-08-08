@@ -18,6 +18,6 @@ class NullProtocol implements IProtocol
      */
     public function connect()
     {
-        echo " 实现null连接 "."/n";
+        echo " null connect " . PHP_EOL;
     }
 }

@@ -17,7 +17,7 @@ class Pop3Protocol implements IProtocol
      */
     public function connect()
     {
-        echo  " 实现pop3连接 " . "/n";
+        echo " pop3 connect " . PHP_EOL;
     }
 
 }
